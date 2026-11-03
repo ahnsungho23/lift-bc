@@ -1,0 +1,278 @@
+ROBOMIMIC WARNING(
+    No private macro file found!
+    It is recommended to use a private macro file
+    To setup, run: python /home/sungho/bc_ws/robomimic/robomimic/scripts/setup_macros.py
+)
+
+============= Initialized Observation Utils with Obs Spec =============
+
+using obs modality: low_dim with keys: ['robot0_eef_quat', 'object', 'robot0_eef_pos', 'robot0_gripper_qpos']
+Created environment with name Lift
+Action size is 7
+
+[데모 25개, shuffle=True] 스텝 1293개, 에포크 1267, 최종 손실 0.0098
+episode  0 | 실패 | 400 steps
+episode  1 | 실패 | 400 steps
+episode  2 | 성공 | 46 steps
+episode  3 | 성공 | 46 steps
+episode  4 | 성공 | 48 steps
+episode  5 | 성공 | 50 steps
+episode  6 | 실패 | 400 steps
+episode  7 | 실패 | 400 steps
+episode  8 | 성공 | 58 steps
+episode  9 | 실패 | 400 steps
+episode 10 | 성공 | 73 steps
+episode 11 | 실패 | 400 steps
+episode 12 | 실패 | 400 steps
+episode 13 | 성공 | 35 steps
+episode 14 | 성공 | 56 steps
+episode 15 | 성공 | 44 steps
+episode 16 | 실패 | 400 steps
+episode 17 | 성공 | 172 steps
+episode 18 | 성공 | 45 steps
+episode 19 | 성공 | 49 steps
+episode 20 | 성공 | 49 steps
+episode 21 | 성공 | 41 steps
+episode 22 | 실패 | 400 steps
+episode 23 | 실패 | 400 steps
+episode 24 | 성공 | 87 steps
+episode 25 | 성공 | 45 steps
+episode 26 | 성공 | 75 steps
+episode 27 | 성공 | 56 steps
+episode 28 | 실패 | 400 steps
+episode 29 | 성공 | 49 steps
+episode 30 | 실패 | 400 steps
+episode 31 | 성공 | 45 steps
+episode 32 | 성공 | 234 steps
+episode 33 | 성공 | 55 steps
+episode 34 | 실패 | 400 steps
+episode 35 | 성공 | 41 steps
+episode 36 | 성공 | 39 steps
+episode 37 | 성공 | 49 steps
+episode 38 | 성공 | 152 steps
+episode 39 | 실패 | 400 steps
+episode 40 | 성공 | 40 steps
+episode 41 | 성공 | 60 steps
+episode 42 | 성공 | 53 steps
+episode 43 | 성공 | 37 steps
+episode 44 | 실패 | 400 steps
+episode 45 | 실패 | 400 steps
+episode 46 | 성공 | 217 steps
+episode 47 | 성공 | 47 steps
+episode 48 | 성공 | 44 steps
+episode 49 | 성공 | 49 steps
+==> 데모 25개, shuffle=True: 성공률 0.68
+
+[데모 50개, shuffle=True] 스텝 2476개, 에포크 760, 최종 손실 0.0115
+episode  0 | 성공 | 47 steps
+episode  1 | 성공 | 52 steps
+episode  2 | 성공 | 47 steps
+episode  3 | 성공 | 51 steps
+episode  4 | 성공 | 49 steps
+episode  5 | 성공 | 43 steps
+episode  6 | 성공 | 40 steps
+episode  7 | 성공 | 47 steps
+episode  8 | 성공 | 57 steps
+episode  9 | 성공 | 57 steps
+episode 10 | 성공 | 50 steps
+episode 11 | 성공 | 45 steps
+episode 12 | 성공 | 48 steps
+episode 13 | 성공 | 44 steps
+episode 14 | 성공 | 97 steps
+episode 15 | 성공 | 59 steps
+episode 16 | 성공 | 47 steps
+episode 17 | 실패 | 400 steps
+episode 18 | 성공 | 46 steps
+episode 19 | 실패 | 400 steps
+episode 20 | 실패 | 400 steps
+episode 21 | 성공 | 63 steps
+episode 22 | 성공 | 51 steps
+episode 23 | 성공 | 38 steps
+episode 24 | 성공 | 45 steps
+episode 25 | 성공 | 49 steps
+episode 26 | 성공 | 44 steps
+episode 27 | 성공 | 41 steps
+episode 28 | 성공 | 39 steps
+episode 29 | 성공 | 48 steps
+episode 30 | 실패 | 400 steps
+episode 31 | 성공 | 48 steps
+episode 32 | 성공 | 48 steps
+episode 33 | 성공 | 48 steps
+episode 34 | 성공 | 42 steps
+episode 35 | 성공 | 46 steps
+episode 36 | 성공 | 47 steps
+episode 37 | 성공 | 47 steps
+episode 38 | 성공 | 43 steps
+episode 39 | 성공 | 46 steps
+episode 40 | 성공 | 44 steps
+episode 41 | 성공 | 43 steps
+episode 42 | 성공 | 44 steps
+episode 43 | 성공 | 42 steps
+episode 44 | 성공 | 44 steps
+episode 45 | 성공 | 39 steps
+episode 46 | 성공 | 42 steps
+episode 47 | 성공 | 43 steps
+episode 48 | 성공 | 50 steps
+episode 49 | 성공 | 50 steps
+==> 데모 50개, shuffle=True: 성공률 0.92
+
+[데모 100개, shuffle=True] 스텝 4699개, 에포크 400, 최종 손실 0.0194
+episode  0 | 성공 | 45 steps
+episode  1 | 성공 | 52 steps
+episode  2 | 성공 | 40 steps
+episode  3 | 성공 | 50 steps
+episode  4 | 성공 | 39 steps
+episode  5 | 성공 | 42 steps
+episode  6 | 성공 | 38 steps
+episode  7 | 성공 | 44 steps
+episode  8 | 성공 | 48 steps
+episode  9 | 성공 | 37 steps
+episode 10 | 성공 | 49 steps
+episode 11 | 성공 | 34 steps
+episode 12 | 성공 | 47 steps
+episode 13 | 성공 | 36 steps
+episode 14 | 성공 | 47 steps
+episode 15 | 성공 | 44 steps
+episode 16 | 실패 | 400 steps
+episode 17 | 실패 | 400 steps
+episode 18 | 성공 | 38 steps
+episode 19 | 실패 | 400 steps
+episode 20 | 성공 | 38 steps
+episode 21 | 성공 | 37 steps
+episode 22 | 성공 | 47 steps
+episode 23 | 성공 | 39 steps
+episode 24 | 성공 | 39 steps
+episode 25 | 성공 | 42 steps
+episode 26 | 성공 | 44 steps
+episode 27 | 성공 | 47 steps
+episode 28 | 성공 | 39 steps
+episode 29 | 성공 | 39 steps
+episode 30 | 실패 | 400 steps
+episode 31 | 성공 | 40 steps
+episode 32 | 성공 | 41 steps
+episode 33 | 성공 | 37 steps
+episode 34 | 성공 | 43 steps
+episode 35 | 성공 | 42 steps
+episode 36 | 성공 | 44 steps
+episode 37 | 성공 | 43 steps
+episode 38 | 성공 | 41 steps
+episode 39 | 성공 | 44 steps
+episode 40 | 실패 | 400 steps
+episode 41 | 성공 | 47 steps
+episode 42 | 성공 | 40 steps
+episode 43 | 성공 | 47 steps
+episode 44 | 성공 | 39 steps
+episode 45 | 성공 | 40 steps
+episode 46 | 실패 | 400 steps
+episode 47 | 성공 | 47 steps
+episode 48 | 성공 | 41 steps
+episode 49 | 성공 | 43 steps
+==> 데모 100개, shuffle=True: 성공률 0.88
+
+[데모 200개, shuffle=True] 스텝 9666개, 에포크 200, 최종 손실 0.0208
+episode  0 | 성공 | 50 steps
+episode  1 | 성공 | 49 steps
+episode  2 | 성공 | 40 steps
+episode  3 | 성공 | 45 steps
+episode  4 | 성공 | 40 steps
+episode  5 | 성공 | 45 steps
+episode  6 | 성공 | 39 steps
+episode  7 | 성공 | 48 steps
+episode  8 | 성공 | 53 steps
+episode  9 | 성공 | 47 steps
+episode 10 | 실패 | 400 steps
+episode 11 | 성공 | 43 steps
+episode 12 | 성공 | 44 steps
+episode 13 | 성공 | 54 steps
+episode 14 | 성공 | 51 steps
+episode 15 | 성공 | 46 steps
+episode 16 | 실패 | 400 steps
+episode 17 | 성공 | 43 steps
+episode 18 | 성공 | 44 steps
+episode 19 | 성공 | 44 steps
+episode 20 | 성공 | 44 steps
+episode 21 | 성공 | 41 steps
+episode 22 | 성공 | 47 steps
+episode 23 | 성공 | 38 steps
+episode 24 | 성공 | 50 steps
+episode 25 | 성공 | 40 steps
+episode 26 | 성공 | 50 steps
+episode 27 | 성공 | 42 steps
+episode 28 | 성공 | 41 steps
+episode 29 | 성공 | 41 steps
+episode 30 | 실패 | 400 steps
+episode 31 | 성공 | 42 steps
+episode 32 | 성공 | 44 steps
+episode 33 | 성공 | 59 steps
+episode 34 | 성공 | 35 steps
+episode 35 | 성공 | 44 steps
+episode 36 | 성공 | 48 steps
+episode 37 | 성공 | 48 steps
+episode 38 | 성공 | 47 steps
+episode 39 | 성공 | 51 steps
+episode 40 | 성공 | 38 steps
+episode 41 | 성공 | 42 steps
+episode 42 | 성공 | 43 steps
+episode 43 | 성공 | 44 steps
+episode 44 | 성공 | 44 steps
+episode 45 | 성공 | 40 steps
+episode 46 | 성공 | 41 steps
+episode 47 | 성공 | 45 steps
+episode 48 | 성공 | 43 steps
+episode 49 | 성공 | 44 steps
+==> 데모 200개, shuffle=True: 성공률 0.94
+
+[데모 200개, shuffle=False] 스텝 9666개, 에포크 200, 최종 손실 0.0228
+episode  0 | 성공 | 49 steps
+episode  1 | 성공 | 56 steps
+episode  2 | 성공 | 44 steps
+episode  3 | 성공 | 49 steps
+episode  4 | 성공 | 44 steps
+episode  5 | 성공 | 46 steps
+episode  6 | 성공 | 44 steps
+episode  7 | 성공 | 55 steps
+episode  8 | 실패 | 400 steps
+episode  9 | 성공 | 47 steps
+episode 10 | 성공 | 56 steps
+episode 11 | 성공 | 55 steps
+episode 12 | 성공 | 50 steps
+episode 13 | 성공 | 56 steps
+episode 14 | 실패 | 400 steps
+episode 15 | 성공 | 58 steps
+episode 16 | 성공 | 52 steps
+episode 17 | 성공 | 45 steps
+episode 18 | 성공 | 49 steps
+episode 19 | 성공 | 48 steps
+episode 20 | 성공 | 50 steps
+episode 21 | 성공 | 48 steps
+episode 22 | 성공 | 53 steps
+episode 23 | 성공 | 42 steps
+episode 24 | 실패 | 400 steps
+episode 25 | 성공 | 48 steps
+episode 26 | 성공 | 55 steps
+episode 27 | 성공 | 51 steps
+episode 28 | 성공 | 45 steps
+episode 29 | 성공 | 43 steps
+episode 30 | 성공 | 118 steps
+episode 31 | 성공 | 49 steps
+episode 32 | 성공 | 51 steps
+episode 33 | 성공 | 54 steps
+episode 34 | 실패 | 400 steps
+episode 35 | 성공 | 61 steps
+episode 36 | 성공 | 53 steps
+episode 37 | 성공 | 46 steps
+episode 38 | 성공 | 52 steps
+episode 39 | 성공 | 54 steps
+episode 40 | 성공 | 44 steps
+episode 41 | 성공 | 45 steps
+episode 42 | 성공 | 46 steps
+episode 43 | 성공 | 48 steps
+episode 44 | 성공 | 48 steps
+episode 45 | 성공 | 45 steps
+episode 46 | 성공 | 47 steps
+episode 47 | 성공 | 48 steps
+episode 48 | 성공 | 49 steps
+episode 49 | 성공 | 45 steps
+==> 데모 200개, shuffle=False: 성공률 0.92
+
+그래프 저장: results/success_vs_demos.png

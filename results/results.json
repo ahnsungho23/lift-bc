@@ -1,0 +1,42 @@
+[
+  {
+    "num_demos": 25,
+    "shuffle": true,
+    "num_steps": 1293,
+    "epochs": 1267,
+    "final_loss": 0.009784246794879436,
+    "success_rate": 0.68
+  },
+  {
+    "num_demos": 50,
+    "shuffle": true,
+    "num_steps": 2476,
+    "epochs": 760,
+    "final_loss": 0.011486431397497655,
+    "success_rate": 0.92
+  },
+  {
+    "num_demos": 100,
+    "shuffle": true,
+    "num_steps": 4699,
+    "epochs": 400,
+    "final_loss": 0.019400562796937793,
+    "success_rate": 0.88
+  },
+  {
+    "num_demos": 200,
+    "shuffle": true,
+    "num_steps": 9666,
+    "epochs": 200,
+    "final_loss": 0.020755950459524206,
+    "success_rate": 0.94
+  },
+  {
+    "num_demos": 200,
+    "shuffle": false,
+    "num_steps": 9666,
+    "epochs": 200,
+    "final_loss": 0.022779821418225765,
+    "success_rate": 0.92
+  }
+]
